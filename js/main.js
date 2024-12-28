@@ -8,11 +8,15 @@ $(function () {
 });
 
 
+
 Fancybox.bind('[data-fancybox="gallery"]', {
+    fitToView: true,
     loop: true,
     animationDuration: 500,
     transitionEffect: "slide"
-});   
+}); 
+
+
 
 
     
