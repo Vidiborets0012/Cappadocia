@@ -57,7 +57,14 @@ a {
   text-decoration: none;
 }
 
+ul {
+  list-style: none;
+}
+
 .page-section {
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 200px;
 }
 
@@ -171,4 +178,37 @@ a {
 
 .slick-next {
   right: 0;
+}
+
+.fairy-tail-inner {
+  position: relative;
+}
+
+.fairy-tail-container {
+  max-width: 1230px;
+  padding: 0 15px;
+  margin: 0 auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.fairy-tail-body {
+  width: 50%;
+  margin-left: auto;
+  padding-left: 55px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.fairy-tail-text {
+  padding: 10px 0;
+}
+
+.fairy-tail-body-title {
+  font-family: 'RobotoCondensed-Regular';
 }
