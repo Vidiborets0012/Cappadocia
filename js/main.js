@@ -6,3 +6,13 @@ $(function () {
         fade: true
     });
 });
+
+
+Fancybox.bind('[data-fancybox="gallery"]', {
+    loop: true,
+    animationDuration: 500,
+    transitionEffect: "slide"
+});   
+
+
+    
