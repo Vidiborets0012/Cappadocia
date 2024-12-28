@@ -149,3 +149,26 @@ a {
   margin-top: -36px;
   margin-right: 88px;
 }
+
+.fairy-tail-slider {
+  width: 50%;
+}
+
+.slick-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 5;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.slick-prev {
+  left: 0;
+}
+
+.slick-next {
+  right: 0;
+}
