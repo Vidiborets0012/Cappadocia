@@ -180,6 +180,10 @@ ul {
   right: 0;
 }
 
+.fairy-tail-title span {
+  margin-left: 176px;
+}
+
 .fairy-tail-inner {
   position: relative;
 }
@@ -211,4 +215,61 @@ ul {
 
 .fairy-tail-body-title {
   font-family: 'RobotoCondensed-Regular';
+}
+
+.our-trip-slider {
+  width: 50%;
+  margin-left: auto;
+}
+
+.our-trip-inner {
+  position: relative;
+}
+
+.our-trip-content {
+  width: 50%;
+  padding-right: 55px;
+}
+
+.our-trip-container {
+  max-width: 1230px;
+  padding: 0 15px;
+  margin: 0 auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.our-trip-title span {
+  margin-left: 244px;
+}
+
+.our-trip-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: start;
+  height: 100%;
+}
+
+.our-trip-list {
+  margin: 5px 0;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.our-trip-item-day {
+  font-family: 'RobotoCondensed-Regular';
+  margin-bottom: 20px;
+}
+
+.our-trip-btn {
+  font-family: 'RobotoCondensed-Light';
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  padding: 11px 54px;
+  border: 1px solid #e2ab3f;
 }
