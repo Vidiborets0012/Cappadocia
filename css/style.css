@@ -513,6 +513,31 @@ ul {
   }
 }
 
+@media screen and (max-width: 1200px) {
+  .hotel-inner {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .hotel-images {
+    margin: 0 0 50px;
+  }
+
+  .hotel-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hotel-gallery {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 600px;
+  }
+}
+
 @media screen and (max-width: 991px) {
   .header,
   .page-section {
@@ -592,6 +617,15 @@ ul {
   }
 }
 
+@media screen and (max-width: 640px) {
+  .hotel-gallery {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .header-title {
     font-size: 80px;
@@ -622,6 +656,12 @@ ul {
     object-fit: cover;
   }
 
+  .hotel-images {
+    height: 70vh;
+    width: 100%;
+    object-fit: cover;
+  }
+
   .header,
   .page-section {
     margin-bottom: 50px;
@@ -634,7 +674,8 @@ ul {
   }
 
   .fairy-tail-title span,
-  .our-trip-title span {
+  .our-trip-title span,
+  .hotel-title span {
     font-size: 22px;
     margin-top: -30px;
   }
@@ -645,6 +686,10 @@ ul {
 
   .our-trip-title span {
     margin-left: 150px;
+  }
+
+  .hotel-title span {
+    margin-left: 72px;
   }
 }
 
@@ -668,7 +713,8 @@ ul {
   }
 
   .fairy-tail-title span,
-  .our-trip-title span {
+  .our-trip-title span,
+  .hotel-title span {
     font-size: 20px;
     margin-top: -36px;
   }
@@ -679,5 +725,9 @@ ul {
 
   .our-trip-title span {
     margin-left: 128px;
+  }
+
+  .hotel-title span {
+    margin-left: 60px;
   }
 }
