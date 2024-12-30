@@ -536,6 +536,21 @@ ul {
     justify-content: space-between;
     max-width: 600px;
   }
+
+  .price-inner {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .price-on {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .price-off {
+    margin-left: auto;
+    margin-right: 144px;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -615,6 +630,21 @@ ul {
     height: 25px;
     background-size: cover;
   }
+
+  .price {
+    background-position: top 24px right -7%;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .price {
+    background-position: bottom right -7%;
+    background-size: 30%;
+  }
+
+  .price-off {
+    margin-right: 216px;
+  }
 }
 
 @media screen and (max-width: 640px) {
@@ -623,6 +653,18 @@ ul {
     flex-direction: column;
     align-items: center;
     max-width: 100%;
+  }
+
+  .price-on {
+    width: 480px;
+  }
+
+  .price-off {
+    margin: 0;
+  }
+
+  .price {
+    background-position: bottom 10px right -7%;
   }
 }
 
@@ -675,7 +717,8 @@ ul {
 
   .fairy-tail-title span,
   .our-trip-title span,
-  .hotel-title span {
+  .hotel-title span,
+  .price-title span {
     font-size: 22px;
     margin-top: -30px;
   }
@@ -690,6 +733,14 @@ ul {
 
   .hotel-title span {
     margin-left: 72px;
+  }
+
+  .price-title span {
+    margin-left: 56px;
+  }
+
+  .price-on {
+    width: 100%;
   }
 }
 
@@ -714,7 +765,8 @@ ul {
 
   .fairy-tail-title span,
   .our-trip-title span,
-  .hotel-title span {
+  .hotel-title span,
+  .price-title span {
     font-size: 20px;
     margin-top: -36px;
   }
@@ -729,5 +781,9 @@ ul {
 
   .hotel-title span {
     margin-left: 60px;
+  }
+
+  .price-title span {
+    margin-left: 46px;
   }
 }
