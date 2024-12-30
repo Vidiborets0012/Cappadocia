@@ -553,6 +553,33 @@ ul {
   }
 }
 
+@media screen and (max-width: 1100px) {
+  .contacts-inner {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contacts-content {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+
+  .contacts-form {
+    margin: 0;
+  }
+
+  .contacts-info {
+    margin-bottom: 30px;
+  }
+
+  .contacts-images {
+    width: 600px;
+    height: 800px;
+  }
+}
+
 @media screen and (max-width: 991px) {
   .header,
   .page-section {
@@ -605,6 +632,41 @@ ul {
 
   .our-trip-btn {
     margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .contacts-inner {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contacts-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contacts-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contacts-date {
+    align-self: flex-start;
+  }
+
+  .contacts-price {
+    align-self: flex-end;
+    margin-left: 0;
+  }
+
+  .contacts-date span {
+    margin-left: 68px;
+  }
+
+  .contacts-price span {
+    margin-left: 68px;
   }
 }
 
@@ -665,6 +727,12 @@ ul {
 
   .price {
     background-position: bottom 10px right -7%;
+  }
+
+  .contacts-images {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
   }
 }
 
@@ -741,6 +809,32 @@ ul {
 
   .price-on {
     width: 100%;
+  }
+
+  .contacts-date,
+  .contacts-price {
+    font-size: 60px;
+    line-height: 68px;
+  }
+
+  .contacts-date span,
+  .contacts-price span {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .contacts-form {
+    max-width: 100%;
+  }
+
+  .contacts-form-title {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+
+  .contacts-form-btn {
+    font-size: 22px;
   }
 }
 
